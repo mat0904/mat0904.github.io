@@ -1,4 +1,33 @@
-header
-{
-	align:	center;
+header {	
+	border: dashed;
+	border-width: 1px;
+	border-radius: 15px;
+	align: middle;
+	font-size: 48px;
+	text-align: center;
+
+	margin: 48px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+section {	
+	border: dashed;
+	border-width: 1px;
+	border-radius: 15px;
+	align: middle;
+	font-size: 32px;
+	text-align: center;
+
+	margin: 48px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: green;
 }
